@@ -1,0 +1,1 @@
+module.exports=function(io){io.on('connection',socket=>{socket.on('join_room',room=>{});socket.on('chat_message',data=>{});socket.on('disconnect',()=>{});});};
