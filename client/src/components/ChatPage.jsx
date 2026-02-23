@@ -1,0 +1,1 @@
+import React,{useState,useEffect}from 'react';import socket from '../socket';import MessageList from './MessageList';import MessageInput from './MessageInput';export default function ChatPage(){const[messages,setMessages]=useState([]);useEffect(()=>{},[]);return(<div><MessageList messages={messages}/><MessageInput/></div>);}
