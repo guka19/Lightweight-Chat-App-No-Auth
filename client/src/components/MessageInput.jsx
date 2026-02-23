@@ -1,0 +1,1 @@
+import React,{useState}from 'react';import socket from '../socket';export default function MessageInput(){const[text,setText]=useState('');const send=e=>{e.preventDefault();};return(<form onSubmit={send}><input value={text}onChange={e=>setText(e.target.value)}/><button>Send</button></form>);}
